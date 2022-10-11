@@ -8,7 +8,7 @@ To understand crypto wallets fully, we have to understand some concepts about th
 
 ## What is an address? 🤨
 
-An address is a string of text generated using cryptography to represent your account on the blockchain. This address can be shared publicly with others, and is completely safe to do so. You can send and receive funds from and to your wallet address. Basically, the address is your unique identifier on the blockchain and represents your 'account'. An example of an Ethereum address is: `0x01573Df433484fCBe6325a0c6E051Dc62Ab107D1`.
+An address is a string of text, derived from hashing a user's private key, extracting the last 20 byte from the hash and prepending "0x" to it. This address can be shared publicly with others, and is completely safe to do so. You can send and receive funds from and to your wallet address. Basically, the address is your unique identifier on the blockchain and represents your 'account'. An example of an Ethereum address is: `0x01573Df433484fCBe6325a0c6E051Dc62Ab107D1`.
 
 <Quiz questionId="3088223f-7ba3-4aee-9e75-c4a9dfee84e4" />
 
